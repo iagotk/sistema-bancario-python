@@ -1,5 +1,5 @@
 saldo = 0.0
-historico []
+historico = []
 
 def ver_saldo():
     print(f'Seu saldo é: R${saldo:.2f}')
@@ -15,7 +15,7 @@ def depositar():
     else:
         print('Valor inválido!')
 
-def sacar
+def sacar():
     global saldo
     valor = float(input('Digite o valor do saque: R$ '))
 
@@ -26,9 +26,9 @@ def sacar
     else:
         print('Saldo insuficiente ou valor inválido!')
 
-def ver_extrato()
+def ver_extrato():
     print('\n=== EXTRATO ===')
-    if len(historico) == 0
+    if len(historico) == 0:
         print('Nenhuma transação realizada.')
     else:
         for item in historico:
@@ -62,7 +62,7 @@ while True:
 
     else:
         print('Opção inválida!')
-        
+
 
 
 
