@@ -1,0 +1,10 @@
+{
+    "saldo": 57.0,
+    "historico": [
+        "Depósito: +R$100.00",
+        "Saque: -R$20.00",
+        "Saque: -R$11.00",
+        "Saque: -R$12.00"
+    ],
+    "saques_realizados": 3
+}
