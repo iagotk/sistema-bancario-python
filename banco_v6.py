@@ -106,8 +106,8 @@ while True:
      print('Encerrando o sistema...')
      break
 
-else:
-    print('Opção inválida!')
+    else:
+        print('Opção inválida!')
 
 
 
